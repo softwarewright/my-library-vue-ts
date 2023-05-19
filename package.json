@@ -1,8 +1,15 @@
 {
-  "name": "my-library-vue-ts",
+  "name": "darrius-library-vue-ts",
   "private": false,
   "version": "0.0.1",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:softwarewright/my-library-vue-ts.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "files": [
     "dist"
   ],
